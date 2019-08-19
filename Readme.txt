@@ -1,2 +1,2 @@
-Solo website created for pratice web Technologies.
-This website is created using HTML5 CSS JAVASCRIPT jQery Boostrap 
+Solo website created for pratice the web Technologies.
+This website is created by using HTML5 CSS JAVASCRIPT jQery Boostra.
