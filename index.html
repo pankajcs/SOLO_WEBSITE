@@ -19,18 +19,49 @@
 
 <body>
     <!--Preloader Section-->
-    
-    <div class="preloader">
-        <div class="sub-preloader">
-            
-        </div>
+    <div id="preloader">
+        <div id="status">&nbsp </div>
     </div>
-
-
     <!--Preloader Section END-->
+    <!--Home Section-->
+    <section id="home">
+
+        <!--Background Video-->
+        <video id="home-bg-video" poster="assets/video/solo.jpg" autoplay loop muted>
+            <source src="assets/video/solo.mp4" type="video/mp4">
+            <source src="assets/video/solo.ogv" type="video/ogg">
+            <source src="assets/video/solo.webm" type="video/webm">
+        </video>
+
+        <div id="home-overlay"></div>
+
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Digital</h1><br>
+                    <h1 id="home-heading-2">Creative<span class="ml-3">Agency</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. icabo molestiae aperiam aspernatur
+                        excepturi?
+                    </p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Arrow btn-->
+        <a href="#about" id="arrow-down"><i class="material-icons">
+            keyboard_arrow_down
+            </i></a>
+    </section>
+    <!-- End Home Section-->
+    <!--Temporay space-->
 
 
-   <!--#############################################################################################################--> 
+    <!--#############################################################################################################-->
     <!--Script Source-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -42,6 +73,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <!--Jquery File-->
+    <script src="js/jquery.js"></script>
     <!--Custom script-->
     <script src="js/srcipt.js"></script>
 </body>
