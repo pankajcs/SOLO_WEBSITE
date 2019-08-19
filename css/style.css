@@ -173,6 +173,34 @@ section{
     color: #f4c613;
 }
 
+/* About section CSS */
+.content-box-lg{
+    padding: 120px 0;
+}
+
+.vertical-heading h5{
+    color: #f4c613;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    position: relative;
+    top:60px;
+    left: -63px;;
+}
+#about-bottom{
+    margin-top: 50px;
+}
+#about-bottom img{
+    margin: 0 auto;
+}
+
 
 
 
