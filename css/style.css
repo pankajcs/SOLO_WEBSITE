@@ -13,37 +13,42 @@
  Moon yellow  #f4c613
  ============================================== */
 
- /* =======================================
+/* =======================================
             Home section CSS
    =========================================
 */
-html,body{
+html,
+body {
     height: 100%;
 }
-body{
+
+body {
     color: #212226;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
-    font-family: 'raleway',sans-serif;
+h6 {
+    font-family: 'raleway', sans-serif;
 }
-p{
-    font-family: sans-serif,sans-serif;
+
+p {
+    font-family: sans-serif, sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
 }
-section{
+
+section {
     background-color: white;
     overflow: hidden;
 }
 
 
-#preloader{
+#preloader {
     background-color: #fff;
     position: fixed;
     top: 0;
@@ -52,7 +57,8 @@ section{
     left: 0;
     z-index: 999;
 }
-#status{
+
+#status {
     background-image: url('../assets/solo-images/preloader/preloader.gif');
     background-repeat: no-repeat;
     width: 70px;
@@ -69,12 +75,13 @@ section{
    =========================================
 */
 
-#home{
+#home {
     background: none;
     height: 100%;
 
 }
-#home-bg-video{
+
+#home-bg-video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -92,8 +99,8 @@ section{
     background-size: cover;
 }
 
-#home-overlay{
-    background-color: rgba(0, 0,0,0.8);
+#home-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -103,16 +110,18 @@ section{
 
 }
 
-#home-content{
+#home-content {
     width: 100%;
     height: 100%;
     display: table;
 }
-#home-content-inner{
+
+#home-content-inner {
     display: table-cell;
     vertical-align: middle;
 }
-#home-heading h1{
+
+#home-heading h1 {
     color: white;
     font-size: 65px;
     font-weight: 100;
@@ -120,25 +129,28 @@ section{
     display: inline-block;
     margin: 0;
 }
-#home-heading h1 span{
-    color:  #f4c613;
+
+#home-heading h1 span {
+    color: #f4c613;
     font-weight: 500;
-    
+
 }
-#home-text p{
+
+#home-text p {
     color: white;
     font-size: 17px;
     font-weight: 100;
     margin: 8px 0 30px 0;
 }
-.btn-general{
+
+.btn-general {
     font-size: 13px;
     font-family: 'Raleway';
-    border-radius:28px;
-    -webkit-border-radius:28px;
-    -moz-border-radius:28px;
-    -ms-border-radius:28px;
-    -o-border-radius:28px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
     text-transform: uppercase;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -147,17 +159,20 @@ section{
     -o-transition: all 0.5s;
     margin: 0 6px;
 }
-.btn-home{
+
+.btn-home {
     color: #fff;
     border: 1px solid #fff;
 }
-.btn-home:hover,.btn-home:focus{
-    color:white;
+
+.btn-home:hover,
+.btn-home:focus {
+    color: white;
     background-color: #f4c613;
     border: 1px solid #f4c613
 }
 
-#arrow-down{
+#arrow-down {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -168,17 +183,22 @@ section{
     margin-left: -16px;
     z-index: 1;
 }
+
 #arrow-down:hover,
-#arrow-down:focus{
+#arrow-down:focus {
     color: #f4c613;
 }
 
 /* About section CSS */
-.content-box-lg{
+.content-box-lg {
     padding: 120px 0;
 }
 
-.vertical-heading h5{
+.content-box-md {
+    padding: 100px 0;
+}
+
+.vertical-heading h5 {
     color: #f4c613;
     font-size: 14px;
     font-weight: 500;
@@ -191,20 +211,90 @@ section{
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     position: relative;
-    top:60px;
-    left: -63px;;
+    top: 60px;
+    left: -63px;
+    ;
 }
-#about-bottom{
+
+.vertical-heading h2 {
+    margin: 0 0 0 30px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+#about-right p:first-child {
+    margin-bottom: 30px;
+}
+
+#about-bottom {
     margin-top: 50px;
 }
-#about-bottom img{
-    margin: 0 auto;
+
+#about-bottom img {
+    /* margin: 0 auto; */
+    max-width: 100%;
+    height: auto;
+
 }
 
 
+/* Aboout part-2 CSS */
+#about-part-2 {
+    background-color: #f4f4f4;
+}
 
+.about-item {
+    background-color: #fff;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.about-item i {
+    font-size: 35px;
+}
 
+.about-item hr {
+    width: 45px;
+    background-color: #f4c613;
+    height: 2px;
+    margin: 0 auto;
+    border: 0;
+}
 
+.about-item p {
+    margin-top: 20px;
+    justify-content: center;
+}
 
+.about-item:hover {
+    background-color: #f4c613;
+}
 
+.about-item:hover i,
+.about-item :hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+.about-item,
+.about-item hr,
+.about-item i {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
